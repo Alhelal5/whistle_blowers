@@ -36,13 +36,14 @@
     src: url("./assets/font/Nunito-Light.ttf")
 }
 
-
-
 body{
-    font-family: 'poppins', sans-serif;
-    font-family: 'nunito', sans-serif;
+    font-family: 'poppins','nunito', sans-serif;
+    
 }
 
+.font-b{
+    font-weight: 700;
+}
 .nunito-bold{
     font-family: "Nunito-extrabold";
 }
@@ -948,6 +949,7 @@ footer .header{
     .item.four.wide.column .header {
         white-space: normal;
     }
+
     .points p {
         font-size: 9pt;
     }
